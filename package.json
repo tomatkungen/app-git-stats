@@ -1,0 +1,9 @@
+{
+  "name": "app-git-stats",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^30.0.1"
+  }
+}
