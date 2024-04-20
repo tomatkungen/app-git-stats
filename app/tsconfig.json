@@ -1,0 +1,9 @@
+{
+  "extends": "./../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "CommonJS", /* Specify what module code is generated. */
+    "rootDir": ".", /* Specify the root folder within your source files. */
+    "resolveJsonModule": true, /* Enable importing .json files. */
+    "outDir": "./../dist-app"
+  }
+}
