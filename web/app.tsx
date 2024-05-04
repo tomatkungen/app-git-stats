@@ -1,9 +1,16 @@
+import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import React from "react";
+import { DashBoard } from "./dashboard/dashboard";
 
-export const App = () => {
-    console.log('app');
+const darkTheme = createTheme({
+    palette: {
+        mode: 'dark',
+    },
+});
 
-    return (
-        <div>react app</div>
-    );
-}
+export const App = () => (
+    <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        <DashBoard/>
+    </ThemeProvider>
+)

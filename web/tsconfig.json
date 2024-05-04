@@ -19,5 +19,6 @@
     "rootDir": ".", /* Specify the root folder within your source files. */
     // "resolveJsonModule": true, /* Enable importing .json files. */
     "outDir": "./../dist-web"
-  }
+  },
+  "exclude": ["./../node_modules"]
 }
